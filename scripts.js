@@ -15,7 +15,7 @@ let kindWordsArray = [
   "Ufam Ci ponad życie",
   "Jesteś moją ostoją",
   "Oddałbym życie za Ciebie",
-  "Zawsze będę stał za Tboą murem",
+  "Zawsze będę stał za Tobą murem",
   "Maleńka... jesteś wielka!",
   "Jestem z Ciebie dumny",
   "Bo jak nie my to kto?",
