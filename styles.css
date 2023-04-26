@@ -1,27 +1,33 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, #cc2b5e, #753a88);
-    font-family: 'Bruno Ace SC', cursive;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+  font-family: "Bruno Ace SC", cursive;
+  height: 100vh;
 }
 
 .container {
-    display: flex;
-    margin: 2rem;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  margin: 2rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main_header {
-    text-align: center;
+  text-align: center;
 }
 
 .paragraph {
-    font-size: 2rem;
-    text-align: center;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .span {
-    font-size: 10rem;
+  font-size: 10rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 1rem;
+  display: inline-block;
 }
