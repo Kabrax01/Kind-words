@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to right, #cc2b5e, #753a88);
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Zeyada', cursive;
   height: 100vh;
 }
 
@@ -15,11 +15,13 @@ body {
 
 .main_header {
   text-align: center;
+  font-size: 2.3rem;
 }
 
 .paragraph {
   font-size: 2rem;
   text-align: center;
+  font-weight: 600;
 }
 
 .span {
