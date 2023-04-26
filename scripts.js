@@ -21,7 +21,10 @@ let kindWordsArray = [
   "Bo jak nie my to kto?",
   "Buziaczek dla Ciebie :*",
   "Cóż to za piękność tutaj spogląda?",
-  "Twój telefon właśnie się zarumienił ;P"
+  "Twój telefon właśnie się zarumienił ;P",
+  "Twój miś Cię kocha z całych sił :*",
+  "A co to za śliczne oczka tutaj patrzą?",
+  "Nie patrz w telefon... tylu ludzi mozesz obdarzyć swoim spojrzeniem",
 ];
 
 let emojiArray = ["❤️", "🥰", "💏", "💞", "💓", "😍", "💕", "😘", "💘", "❤️‍🔥", "💗"]
