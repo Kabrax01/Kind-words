@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(79, 204, 60);
+    background: linear-gradient(to right, #cc2b5e, #753a88);
     font-family: 'Bruno Ace SC', cursive;
     height: 100vh;
 }
@@ -19,4 +19,9 @@ body {
 
 .paragraph {
     font-size: 2rem;
+    text-align: center;
+}
+
+.span {
+    font-size: 10rem;
 }
