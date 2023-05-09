@@ -42,3 +42,15 @@ footer {
   margin-top: auto;
   padding-bottom: 3rem;
 }
+
+@media (min-width: 380px) {
+  .paragraph {
+    flex: 0;
+    margin: 0;
+  }
+
+  .span {
+    margin:0;
+    font-size: 5rem;
+  }
+}
