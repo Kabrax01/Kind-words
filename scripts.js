@@ -27,19 +27,48 @@ let kindWordsArray = [
   "Nie patrz w telefon... tylu ludzi mozesz obdarzyć swoim spojrzeniem",
 ];
 
-let emojiArray = ["❤️", "🥰", "💏", "💞", "💓", "😍", "💕", "😘", "💘", "❤️‍🔥", "💗"]
+let emojiArray = [
+  "❤️",
+  "🥰",
+  "💏",
+  "💞",
+  "💓",
+  "😍",
+  "💕",
+  "😘",
+  "💘",
+  "❤️‍🔥",
+  "💗",
+];
 
 const display = document.querySelector("#paragraph");
-const emoji = document.querySelector("#span")
+const emoji = document.querySelector("#span");
 const body = document.querySelector("body");
 
+let wordsArrCopy = [...kindWordsArray];
+let emojiArrCopy = [...emojiArray];
+
+function generator(array) {
+  return Math.floor(Math.random() * array.length);
+}
+
 body.addEventListener("click", () => {
-  
-  const randomWordGenerator = Math.floor(Math.random() * kindWordsArray.length);
-  const randomEmojiGenerator = Math.floor(Math.random() * emojiArray.length);
+  if (wordsArrCopy.length == 0) {
+    wordsArrCopy = [...kindWordsArray];
+  }
 
-  display.textContent = kindWordsArray[randomWordGenerator];
-  emoji.textContent = emojiArray[randomEmojiGenerator]
+  if (emojiArrCopy.length == 0) {
+    emojiArrCopy = [...emojiArray];
+  }
 
-  console.log(randomEmojiGenerator);
+  const wordNum = generator(wordsArrCopy);
+  const emojiNum = generator(emojiArrCopy);
+
+  display.textContent = wordsArrCopy[wordNum];
+  emoji.textContent = emojiArrCopy[emojiNum];
+
+  wordsArrCopy.splice(wordNum, 1);
+  emojiArrCopy.splice(emojiNum, 1);
+
+  console.log(wordsArrCopy);
 });
