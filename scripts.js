@@ -41,12 +41,13 @@ let emojiArray = [
   "💗",
   "🫶",
   "❣️",
-  "😚"
+  "😚",
 ];
 
-const display = document.querySelector("#paragraph");
+const display = document.querySelector("#kind_word");
 const emoji = document.querySelector("#span");
 const body = document.querySelector("body");
+const clock = document.querySelector("#clock");
 
 let wordsArrCopy = [...kindWordsArray];
 let emojiArrCopy = [...emojiArray];
@@ -75,3 +76,26 @@ body.addEventListener("click", () => {
 
   console.log(wordsArrCopy);
 });
+
+//*** CLOCK SETUP ***//
+
+(function currentTime() {
+  let date = new Date();
+
+  let hh = date.getHours();
+  let mm = date.getMinutes();
+  let ss = date.getSeconds();
+
+  hh = hh < 10 ? "0" + hh : hh;
+  mm = mm < 10 ? "0" + mm : mm;
+  ss = ss < 10 ? "0" + ss : ss;
+
+  let timeDispl = "I love you, every second of my life " + hh + ":" + mm + ":" + ss;
+
+  clock.innerHTML = timeDispl;
+
+  setTimeout(function () {
+    currentTime(), 1000;
+  });
+
+})();
