@@ -39,6 +39,9 @@ let emojiArray = [
   "💘",
   "❤️‍🔥",
   "💗",
+  "🫶",
+  "❣️",
+  "😚"
 ];
 
 const display = document.querySelector("#paragraph");
