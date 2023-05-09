@@ -41,11 +41,12 @@ body {
 
 footer {
   margin-top: auto;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 600;
 }
 
 .image_landscape {
@@ -61,7 +62,7 @@ footer {
 
   .span {
     margin: 0;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .image_portrait {
@@ -74,5 +75,10 @@ footer {
     bottom: 0;
     z-index: -1;
     width: 100vw;
+  }
+
+  .main_header {
+    font-size: 2rem;
+    margin-top: 32px;
   }
 }
