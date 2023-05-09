@@ -4,7 +4,6 @@ body {
   background: linear-gradient(to right, #cc2b5e, #753a88);
   font-family: 'Caveat', cursive;
   position: relative;
-  overflow: hidden;
 }
 
 .image_portrait {
