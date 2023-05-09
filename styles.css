@@ -41,6 +41,7 @@ body {
 footer {
   margin-top: auto;
   padding-bottom: 3rem;
+  color: white;
 }
 
 @media (min-width: 410px) {
