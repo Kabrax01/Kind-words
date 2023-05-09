@@ -18,7 +18,7 @@ body {
   display: flex;
   flex: 1;
   margin: 2rem 2rem 1rem;
-  height: calc(100vh - 5rem);
+  height: calc(100vh - 5Crem);
   flex-direction: column;
   align-items: center;
 }
