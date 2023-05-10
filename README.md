@@ -4,8 +4,8 @@
 
 ## Screenshot
 
-![](/img/127.0.0.1_5501_index.html.png)
-![](/img/127.0.0.1_5501_index.html(Redmi%20Note%2010s).png)
+![](/Img/screen1.png)
+![](/Img/screen2.png)
 
 ## Links
 
