@@ -1,7 +1,7 @@
 "use strict";
 
 let kindWordsArray = [
-  "Dziękuję że jestes",
+  "Dziękuję że jesteś",
   "Uśmiechnij się",
   "Dasz radę",
   "Jesteś piękna",
@@ -39,7 +39,6 @@ let emojiArray = [
   "💘",
   "❤️‍🔥",
   "💗",
-  "🫶",
   "❣️",
   "😚",
 ];
@@ -73,8 +72,6 @@ body.addEventListener("click", () => {
 
   wordsArrCopy.splice(wordNum, 1);
   emojiArrCopy.splice(emojiNum, 1);
-
-  console.log(wordsArrCopy);
 });
 
 //*** CLOCK SETUP ***//
