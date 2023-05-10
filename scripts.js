@@ -94,8 +94,6 @@ body.addEventListener("click", () => {
 
   clock.innerHTML = timeDispl;
 
-  setTimeout(function () {
-    currentTime(), 1000;
-  });
+  setTimeout(function (){currentTime()}, 1000);
 
 })();
